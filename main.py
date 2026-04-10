@@ -1,7 +1,7 @@
-from src.load_data import load_data
-from src.state_model import assign_state
-from src.transition_matrix import build_matrix
-from src.steady_state import steady_state
+from load_data import load_data
+from state_model import assign_state
+from transition_matrix import build_matrix
+from steady_state import steady_state
 
 states = ["U", "R", "A", "I", "D"]
 
